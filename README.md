@@ -1,5 +1,5 @@
 # API Reference v1.0
-
+![StrokeTextView](https://stroketextview.netlify.app/src/assets/images/stroke_text_view.webp)
 The [`StrokeTextView`](https://stroketextview.netlify.app/) exposes a clean and intuitive API. All property setters are optimized to automatically recalculate the view's bounding box (adding padding extra) and trigger hardware-accelerated redraws (`invalidate()`) only when necessary.
 [site here](https://stroketextview.netlify.app/)
 
