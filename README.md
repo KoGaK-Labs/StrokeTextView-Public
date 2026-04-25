@@ -126,6 +126,6 @@ addView(dynamicStrokeText)
 
 To use this component in your personal or commercial Android projects (and monetize them), you must purchase a Single-Seat License.
 
-🛒 **[Purchase the StrokeTextView Component Here](COLOQUE_SEU_LINK_DO_GUMROAD_AQUI)**
+🛒 **[Purchase the StrokeTextView Component Here](https://kogaklabs.gumroad.com/)**
 
 *Upon purchase, your download will include the `.aar` file and the full `LICENSE.txt` agreement granting you the rights to use it without restrictions in your compiled applications.*
