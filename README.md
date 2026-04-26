@@ -87,9 +87,26 @@ That's it! The StrokeTextView is now ready to be used in your XML layouts or Kot
 | **`layoutGravity`** | `Int` | `Gravity.NO_GRAVITY` | Controls the alignment of the entire View in relation to its **Parent View** (e.g., centering the component inside a `FrameLayout`). |
 | **`allowUnsafePropsValues`** | `Boolean` | `false` | The "Escape Hatch". When set to `true`, it disables the internal safety clamps (such as the `50f` limit on `strokeWidth`). <br><br>**Use with caution:** *Unleashing extreme stroke widths on fonts with small internal counters may produce visual overlapping artifacts due to native Canvas Path constraints.* |
 
+## 💻 Usage Example XML and Programmatic (Dynamic & Custom Views) 
 
-## 💻 Programmatic Usage (Dynamic & Custom Views)
-
+**Example: usage in XML**
+```xml
+<com.kogak.labs.StrokeTextView
+  app:customShadowDy="15dp"
+  app:customShadowColor="?attr/colorTertiary"
+  app:strokeColor="?attr/colorOnPrimary"
+  android:layout_gravity="center"
+  android:gravity="center"
+  android:textAlignment="center"
+  android:fontFamily="@font/fredoka_medium"
+  app:strokeWidth="14dp"
+  android:textSize="48sp"
+  android:text="Great"
+  android:textColor="@color/body"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+/>
+```
 XML is entirely optional. `StrokeTextView` is designed to be fully instantiated and managed programmatically. 
 
 If you are using it inside a Custom View without XML, or generating UI dynamically, the component calculates its own bounds automatically. Every time you set a property (like `strokeWidth` or `customShadowDx`), it automatically recalculates the required extra padding to prevent path clipping and triggers hardware-accelerated redraws (`invalidate() / requestLayout()`) only when necessary.
