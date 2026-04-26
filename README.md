@@ -116,7 +116,12 @@ val dynamicStrokeText = StrokeTextView(context).apply {
 
 // 3. Add to your Custom View or Layout
 addView(dynamicStrokeText)
-````
+```
+
+## KoGaK Labs - StrokeTextView Proguard Rules
+### Prevents R8 from stripping or obfuscating the component classes
+`-keep class com.kogak.labs.** { *; }`
+
 
 ## 📄 License & Usage
 
