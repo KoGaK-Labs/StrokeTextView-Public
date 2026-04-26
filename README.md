@@ -25,7 +25,7 @@ Installing the **StrokeTextView** component is straightforward and takes less th
 **Step 1: Add the `.aar` file to your project**
 1. Switch your Android Studio project view from "Android" to "Project".
 2. Navigate to `app/libs/` (create the `libs` folder if it doesn't exist).
-3. Copy and paste the `StrokeTextView.aar` file into this folder.
+3. Copy and paste the `StrokeTextView-v1.0.0.aar` file into this folder.
 
 **Step 2: Update your `build.gradle`**
 Open your app-level `build.gradle` (or `build.gradle.kts`) and add the following line inside the `dependencies {}` block:
@@ -35,7 +35,7 @@ dependencies {
     // KoGaK Labs - StrokeTextView Component
 
     // Option A: Direct file reference
-    implementation(files("libs/StrokeTextView.aar"))
+    implementation(files("libs/StrokeTextView-v1.0.0.aar"))
     
     // Option B: Wildcard (Includes all .aar files)
     // implementation(fileTree("libs") { include("*.aar") })
