@@ -1,7 +1,17 @@
-# API Reference v1.0
-![StrokeTextView](https://stroketextview.netlify.app/src/assets/images/stroke_text_view.webp)
-The [`StrokeTextView`](https://stroketextview.netlify.app/) exposes a clean and intuitive API. All property setters are optimized to automatically recalculate the view's bounding box (adding padding extra) and trigger hardware-accelerated redraws (`invalidate()`) only when necessary.
 
+# StrokeTextView
+A high-performance, zero-allocation stroke effect for native Android TextViews.
+<div style="display:flex; justify-content:center;"> 
+   <span><img src="https://img.shields.io/badge/Library%20Size-6KB-brightgreen"/></span> 
+   <span><img src="https://img.shields.io/badge/License-Commercial-blue"/></span>
+</div>
+
+## ✨ Key Features
+* **Ultra-Lightweight:** Only **6KB** total binary size.
+* **Zero Runtime Allocation:** Reuses the native `StaticLayout` to avoid GC overhead.
+* **Performance-First:** Designed for 60FPS scrolling in complex lists.
+* **Easy Integration:** Single `.aar` file with no external dependencies.
+  
 ## Demo app
 <table align="center"><tr><td align="center"><b>Stroke Axis</b><br><br><video src="https://github.com/user-attachments/assets/ee77c239-fa74-4cb0-8f93-334e2c1023d0" width="160" controls autoplay loop muted></video></td><td align="center"><b>Shadow Axis</b><br><br><video src="https://github.com/user-attachments/assets/a939b622-b3f8-40e8-b86b-fd835241ccfe" width="160" controls autoplay loop muted></video></td><td align="center"><b> Native Shadows</b><br><br><video src="https://github.com/user-attachments/assets/db50d852-3b4e-4e85-9ef0-14a3a7b910d7" width="160" controls autoplay loop muted></video></td><td align="center"><b>Customizations</b><br><br><video src="https://github.com/user-attachments/assets/7fb5e105-8d41-4d4c-aa05-e79f14be6365" width="160" controls autoplay loop muted></video></td></tr></table>
 
@@ -58,6 +68,8 @@ That's it! The StrokeTextView is now ready to be used in your XML layouts or Kot
 | **`strokeDy`** | `Float` | `0f` | **Range:** `-200.0` to `200.0`. The vertical offset of the stroke. Positive values move the stroke downwards, negative upwards. |
 
 ---
+# API Reference v1.0
+The [`StrokeTextView`](https://stroketextview.netlify.app/) exposes a clean and intuitive API. All property setters are optimized to automatically recalculate the view's bounding box (adding padding extra) and trigger hardware-accelerated redraws (`invalidate()`) only when necessary.
 
 ## 🌑 Custom Shadow Properties
 
@@ -135,12 +147,12 @@ val dynamicStrokeText = StrokeTextView(context).apply {
 addView(dynamicStrokeText)
 ```
 
-## KoGaK Labs - StrokeTextView Proguard Rules
+# KoGaK Labs - StrokeTextView Proguard Rules
 ### Prevents R8 from stripping or obfuscating the component classes
 `-keep class com.kogak.labs.** { *; }`
 
 
-## 📄 License & Usage
+# 📄 License & Usage
 
 **StrokeTextView** is a commercial, proprietary UI component developed by **KoGaK Labs™**. 
 
