@@ -1,5 +1,5 @@
 
-# StrokeTextView
+# StrokeTextView🎨
 A high-performance, zero-allocation stroke effect for native Android TextViews.
 <div style="display:flex; justify-content:center;"> 
    <span><img src="https://img.shields.io/badge/Library%20Size-6KB-brightgreen"/></span> 
