@@ -2,12 +2,12 @@
 # StrokeTextView🎨
 A high-performance, zero-allocation stroke effect for native Android TextViews.
 <div style="display:flex; justify-content:center;"> 
-   <span><img src="https://img.shields.io/badge/Library%20Size-6KB-brightgreen"/></span> 
+   <span><img src="https://img.shields.io/badge/Library%20Size-7KB-brightgreen"/></span> 
    <span><img src="https://img.shields.io/badge/License-Commercial-blue"/></span>
 </div>
 
 ## ✨ Key Features
-* **Ultra-Lightweight:** Only **6KB** total binary size.
+* **Ultra-Lightweight:** Only **7KB** total binary size.
 * **Zero Runtime Allocation:** Reuses the native `StaticLayout` to avoid GC overhead.
 * **Performance-First:** Designed for 60FPS scrolling in complex lists.
 * **Easy Integration:** Single `.aar` file with no external dependencies.
