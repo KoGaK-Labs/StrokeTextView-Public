@@ -20,7 +20,7 @@ A high-performance, zero-allocation stroke effect for native Android TextViews.
 <table align="center">
   <tr>
     <td align="center">
-      <a href="https://stroketextview.kogak.net" target="_blank">
+      <a href="https://stroketextview.labs.kogak.net" target="_blank">
         <img src="https://github.com/user-attachments/assets/352a3d6b-2e38-449a-8df3-3e4593564578" width="160" alt="Watch Showcase">
       </a>
     </td>
@@ -30,7 +30,7 @@ A high-performance, zero-allocation stroke effect for native Android TextViews.
 
 ## 🚀 Quick Start / Installation
 
-Installing the **[`StrokeTextView`](https://stroketextview.kogak.net/)** component is straightforward and takes less than a minute.
+Installing the **[`StrokeTextView`](https://stroketextview.labs.kogak.net/)** component is straightforward and takes less than a minute.
 **Step 1: Add the `.aar` file to your project**
 1. Switch your Android Studio project view from "Android" to "Project".
 2. Navigate to `app/libs/` (create the `libs` folder if it doesn't exist).
@@ -68,7 +68,7 @@ That's it! The StrokeTextView is now ready to be used in your XML layouts or Kot
 
 ---
 # API Reference v1.0
-The [`StrokeTextView`](https://stroketextview.kogak.net/) exposes a clean and intuitive API. All property setters are optimized to automatically recalculate the view's bounding box (adding padding extra) and trigger hardware-accelerated redraws (`invalidate()`) only when necessary.
+The [`StrokeTextView`](https://stroketextview.labs.kogak.net/) exposes a clean and intuitive API. All property setters are optimized to automatically recalculate the view's bounding box (adding padding extra) and trigger hardware-accelerated redraws (`invalidate()`) only when necessary.
 
 ## 🌑 Custom Shadow Properties
 
