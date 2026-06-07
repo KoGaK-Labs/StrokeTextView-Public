@@ -30,8 +30,7 @@ A high-performance, zero-allocation stroke effect for native Android TextViews.
 
 ## 🚀 Quick Start / Installation
 
-Installing the **StrokeTextView** component is straightforward and takes less than a minute.
-
+Installing the **[`StrokeTextView`](https://stroketextview.kogak.net/)** component is straightforward and takes less than a minute.
 **Step 1: Add the `.aar` file to your project**
 1. Switch your Android Studio project view from "Android" to "Project".
 2. Navigate to `app/libs/` (create the `libs` folder if it doesn't exist).
