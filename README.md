@@ -102,7 +102,7 @@ The [`StrokeTextView`](https://stroketextview.labs.kogak.net/) exposes a clean a
 
 **Example: usage in XML**
 ```xml
-<com.kogak.labs.StrokeTextView
+<net.kogak.labs.StrokeTextView
   app:customShadowDy="15dp"
   app:customShadowColor="?attr/colorTertiary"
   app:strokeColor="?attr/colorOnPrimary"
@@ -148,7 +148,7 @@ addView(dynamicStrokeText)
 
 # KoGaK Labs - StrokeTextView Proguard Rules
 ### Prevents R8 from stripping or obfuscating the component classes
-`-keep class com.kogak.labs.** { *; }`
+`-keep class net.kogak.labs.** { *; }`
 
 
 # 📄 License & Usage
